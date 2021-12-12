@@ -1,0 +1,122 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+input {
+	width: 98.5%;
+}
+select {
+	width: 100%;
+	direction: rtl;
+}
+
+input,select{
+	background-color: lightgray;
+	text-align: center;
+}
+#container {
+	background-color: rgb(0, 60, 128);
+	border: 5px solid Gray;
+	padding: 1%;
+	color: white;
+}
+#container tr td, #container tr th{
+	max-width: 50%;
+	vertical-align: top;
+}
+#registration {
+	text-align: center;
+	margin-right: 1%;
+}
+#regform table {
+	border-collapse: collapse;
+	text-align: justify	;
+	width: 	100%;
+}	
+#regform table tr td {
+	max-width: 	50%;
+}
+
+#register {
+	width: 100%;
+}
+#displayRegistered {
+	text-align: center;
+	margin-left: 1%;
+}
+#displayRegistered table {
+	width: 100%;
+}
+#displayRegistered table tr{
+	border: 1px solid black;
+}
+
+#performance *, #skill *, #instrument *, #location *, #time_slot *
+{
+ border-radius: 15px;
+ background-color: rgb(110, 156, 216);
+}
+
+#performance, #skill, #instrument, #location, #time_slot{
+    color: white;
+    background-color: rgb(70, 66, 66);
+}
+
+#first_name, #last_name, #student_id, #room, #first_name_2, #last_name_2, #student_id_2{
+    background-color: rgb(70, 66, 66);
+    color: white;
+}
+
+
+#clear{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#clear:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+#register{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #36c8f4;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+#register:hover {
+      background-color: #3169be;
+      color: white;
+    }
+
+
